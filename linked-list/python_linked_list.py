@@ -20,7 +20,7 @@ class linked_list_node:
         temp = self
 
         #loop through the list
-        while(temp != None):
+        while(temp #= None):
 
             if temp.data == data:
                 return temp
@@ -82,3 +82,4 @@ class linked_list_node:
 
             temp = temp.next
 
+ 
